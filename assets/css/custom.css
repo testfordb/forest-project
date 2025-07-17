@@ -1,0 +1,53 @@
+body{
+  background-color: #16281F;
+}
+.neon {
+  box-shadow: 0 0 5px rgba(52, 211, 153, 0.5), 0 0 10px rgba(52, 211, 153, 0.3);
+}
+
+.neon-before::before {
+  content: '';
+  display: inline-block;
+  height: 0.125rem;
+  width: 1.5rem;
+  background-color: #17E880;
+  transition: width 0.3s;
+}
+
+.neon-before:hover::before {
+  width: 2.5rem;
+}
+
+.radial-gradient {
+  background-image: radial-gradient(circle, rgba(6, 94, 70, 0.5), transparent);
+}
+
+@keyframes slide-in {
+  from { transform: translateY(100px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-slide-in-100 {
+  animation: slide-in 0.4s ease-in-out forwards 0.1s;
+}
+
+.animate-slide-in-200 {
+  animation: slide-in 0.4s ease-in-out forwards 0.2s;
+}
+
+.animate-slide-in-300 {
+  animation: slide-in 0.4s ease-in-out forwards 0.3s;
+}
+
+.animate-slide-in-400 {
+  animation: slide-in 0.4s ease-in-out forwards 0.4s;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease-in-out forwards;
+}
