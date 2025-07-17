@@ -78,7 +78,7 @@ You can deploy this Nuxt.js app on **Vercel**, **Netlify**, or any Node-compatib
 
 ## 👨‍💻 Author
 
-* **Your Name** – [GitHub](https://github.com/testfordb)
+* **testfordb:** – [GitHub](https://github.com/testfordb)
 
 
 
