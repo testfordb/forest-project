@@ -31,8 +31,8 @@ This project is fully optimized for an immersive user experience.
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/testfordb/forest-project
-cd forestlife
+git clone https://github.com/testfordb/next-js-forest-website
+cd next-js-forest-website
 ```
 
 ### 2️⃣ Install dependencies
